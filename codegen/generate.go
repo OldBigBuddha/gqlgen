@@ -4,6 +4,7 @@ import (
 	"embed"
 	"errors"
 	"fmt"
+	"os"
 	"path/filepath"
 	"strings"
 
@@ -32,6 +33,25 @@ func GenerateCode(data *Data) error {
 }
 
 func generateSingleFile(data *Data) error {
+	templatePath := data.Config.Exec.ExecTemplate
+
+	execTemplate := ""
+	if templatePath != "" {
+		execTemplate = readExecTemplate(templatePath)
+	}
+
+	if execTemplate != "" {
+		return templates.Render(templates.Options{
+			PackageName:     data.Config.Exec.Package,
+			Filename:        data.Config.Exec.Filename,
+			Data:            data,
+			RegionTags:      true,
+			GeneratedHeader: true,
+			Packages:        data.Config.Packages,
+			Template:        execTemplate,
+		})
+	}
+
 	return templates.Render(templates.Options{
 		PackageName:     data.Config.Exec.Package,
 		Filename:        data.Config.Exec.Filename,
@@ -210,4 +230,12 @@ func addReferencedTypes(data *Data, builds *map[string]*Data) error {
 		build.ReferencedTypes[k] = rt
 	}
 	return nil
+}
+
+func readExecTemplate(customExecTemplate string) string {
+	contentBytes, err := os.ReadFile(customExecTemplate)
+	if err != nil {
+		panic(err)
+	}
+	return string(contentBytes)
 }

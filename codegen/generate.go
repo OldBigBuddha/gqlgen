@@ -33,34 +33,27 @@ func GenerateCode(data *Data) error {
 }
 
 func generateSingleFile(data *Data) error {
-	templatePath := data.Config.Exec.ExecTemplate
-
-	execTemplate := ""
-	if templatePath != "" {
-		execTemplate = readExecTemplate(templatePath)
-	}
-
-	if execTemplate != "" {
-		return templates.Render(templates.Options{
-			PackageName:     data.Config.Exec.Package,
-			Filename:        data.Config.Exec.Filename,
-			Data:            data,
-			RegionTags:      true,
-			GeneratedHeader: true,
-			Packages:        data.Config.Packages,
-			Template:        execTemplate,
-		})
-	}
-
-	return templates.Render(templates.Options{
-		PackageName:     data.Config.Exec.Package,
-		Filename:        data.Config.Exec.Filename,
+	config := data.Config.Exec
+	opts := templates.Options{
+		PackageName:     config.Package,
+		Filename:        config.Filename,
 		Data:            data,
 		RegionTags:      true,
 		GeneratedHeader: true,
 		Packages:        data.Config.Packages,
-		TemplateFS:      codegenTemplates,
-	})
+	}
+
+	switch {
+	case config.ExecTemplate != "":
+		execTemplate := readExecTemplate(config.ExecTemplate)
+		opts.Template = execTemplate
+	case config.ExecTemplateDir != "":
+		opts.TemplateDir = config.ExecTemplateDir
+	default:
+		opts.TemplateFS = codegenTemplates
+	}
+
+	return templates.Render(opts)
 }
 
 func generatePerSchema(data *Data) error {

@@ -226,7 +226,7 @@ func (ec *executionContext) _B(ctx context.Context, sel ast.SelectionSet, obj *B
 
 // region    ***************************** type.gotpl *****************************
 
-func (ec *executionContext) marshalOTestUnion2githubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐTestUnion(ctx context.Context, sel ast.SelectionSet, v TestUnion) graphql.Marshaler {
+func (ec *executionContext) marshalOTestUnion2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐTestUnion(ctx context.Context, sel ast.SelectionSet, v TestUnion) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}

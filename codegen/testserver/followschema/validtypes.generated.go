@@ -751,7 +751,7 @@ func (ec *executionContext) field_ValidType_validInputKeywords_argsInput(
 
 	ctx = graphql.WithPathContext(ctx, graphql.NewPathWithField("input"))
 	if tmp, ok := rawArgs["input"]; ok {
-		return ec.unmarshalOValidInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐValidInput(ctx, tmp)
+		return ec.unmarshalOValidInput2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐValidInput(ctx, tmp)
 	}
 
 	var zeroVal *ValidInput
@@ -1395,7 +1395,7 @@ func (ec *executionContext) _ValidType(ctx context.Context, sel ast.SelectionSet
 
 // region    ***************************** type.gotpl *****************************
 
-func (ec *executionContext) unmarshalOValidInput2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐValidInput(ctx context.Context, v interface{}) (*ValidInput, error) {
+func (ec *executionContext) unmarshalOValidInput2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐValidInput(ctx context.Context, v interface{}) (*ValidInput, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -1403,7 +1403,7 @@ func (ec *executionContext) unmarshalOValidInput2ᚖgithubᚗcomᚋ99designsᚋg
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOValidType2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐValidType(ctx context.Context, sel ast.SelectionSet, v *ValidType) graphql.Marshaler {
+func (ec *executionContext) marshalOValidType2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋcodegenᚋtestserverᚋfollowschemaᚐValidType(ctx context.Context, sel ast.SelectionSet, v *ValidType) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}

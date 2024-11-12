@@ -510,7 +510,7 @@ func (ec *executionContext) field_Query_boolTypedN_argsArg(
 
 	ctx = graphql.WithPathContext(ctx, graphql.NewPathWithField("arg"))
 	if tmp, ok := rawArgs["arg"]; ok {
-		return ec.unmarshalOBoolTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx, tmp)
+		return ec.unmarshalOBoolTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx, tmp)
 	}
 
 	var zeroVal *model.BoolTyped
@@ -542,7 +542,7 @@ func (ec *executionContext) field_Query_boolTyped_argsArg(
 
 	ctx = graphql.WithPathContext(ctx, graphql.NewPathWithField("arg"))
 	if tmp, ok := rawArgs["arg"]; ok {
-		return ec.unmarshalNBoolTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx, tmp)
+		return ec.unmarshalNBoolTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx, tmp)
 	}
 
 	var zeroVal model.BoolTyped
@@ -638,7 +638,7 @@ func (ec *executionContext) field_Query_inPackage_argsArg(
 
 	ctx = graphql.WithPathContext(ctx, graphql.NewPathWithField("arg"))
 	if tmp, ok := rawArgs["arg"]; ok {
-		return ec.unmarshalNInPackage2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage(ctx, tmp)
+		return ec.unmarshalNInPackage2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage(ctx, tmp)
 	}
 
 	var zeroVal InPackage
@@ -670,7 +670,7 @@ func (ec *executionContext) field_Query_intTypedN_argsArg(
 
 	ctx = graphql.WithPathContext(ctx, graphql.NewPathWithField("arg"))
 	if tmp, ok := rawArgs["arg"]; ok {
-		return ec.unmarshalOIntTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx, tmp)
+		return ec.unmarshalOIntTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx, tmp)
 	}
 
 	var zeroVal *model.IntTyped
@@ -702,7 +702,7 @@ func (ec *executionContext) field_Query_intTyped_argsArg(
 
 	ctx = graphql.WithPathContext(ctx, graphql.NewPathWithField("arg"))
 	if tmp, ok := rawArgs["arg"]; ok {
-		return ec.unmarshalNIntTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx, tmp)
+		return ec.unmarshalNIntTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx, tmp)
 	}
 
 	var zeroVal model.IntTyped
@@ -798,7 +798,7 @@ func (ec *executionContext) field_Query_stringTypedN_argsArg(
 
 	ctx = graphql.WithPathContext(ctx, graphql.NewPathWithField("arg"))
 	if tmp, ok := rawArgs["arg"]; ok {
-		return ec.unmarshalOStringTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx, tmp)
+		return ec.unmarshalOStringTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx, tmp)
 	}
 
 	var zeroVal *model.StringTyped
@@ -830,7 +830,7 @@ func (ec *executionContext) field_Query_stringTyped_argsArg(
 
 	ctx = graphql.WithPathContext(ctx, graphql.NewPathWithField("arg"))
 	if tmp, ok := rawArgs["arg"]; ok {
-		return ec.unmarshalNStringTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx, tmp)
+		return ec.unmarshalNStringTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx, tmp)
 	}
 
 	var zeroVal model.StringTyped
@@ -926,7 +926,7 @@ func (ec *executionContext) field_Query_varTyped_argsArg(
 
 	ctx = graphql.WithPathContext(ctx, graphql.NewPathWithField("arg"))
 	if tmp, ok := rawArgs["arg"]; ok {
-		return ec.unmarshalNVarTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped(ctx, tmp)
+		return ec.unmarshalNVarTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped(ctx, tmp)
 	}
 
 	var zeroVal model.VarTyped
@@ -1065,7 +1065,7 @@ func (ec *executionContext) _Query_intTyped(ctx context.Context, field graphql.C
 	}
 	res := resTmp.(model.IntTyped)
 	fc.Result = res
-	return ec.marshalNIntTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx, field.Selections, res)
+	return ec.marshalNIntTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_intTyped(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -1172,7 +1172,7 @@ func (ec *executionContext) _Query_intTypedN(ctx context.Context, field graphql.
 	}
 	res := resTmp.(*model.IntTyped)
 	fc.Result = res
-	return ec.marshalOIntTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx, field.Selections, res)
+	return ec.marshalOIntTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_intTypedN(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -1279,7 +1279,7 @@ func (ec *executionContext) _Query_stringTyped(ctx context.Context, field graphq
 	}
 	res := resTmp.(model.StringTyped)
 	fc.Result = res
-	return ec.marshalNStringTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx, field.Selections, res)
+	return ec.marshalNStringTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_stringTyped(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -1386,7 +1386,7 @@ func (ec *executionContext) _Query_stringTypedN(ctx context.Context, field graph
 	}
 	res := resTmp.(*model.StringTyped)
 	fc.Result = res
-	return ec.marshalOStringTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx, field.Selections, res)
+	return ec.marshalOStringTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_stringTypedN(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -1493,7 +1493,7 @@ func (ec *executionContext) _Query_boolTyped(ctx context.Context, field graphql.
 	}
 	res := resTmp.(model.BoolTyped)
 	fc.Result = res
-	return ec.marshalNBoolTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx, field.Selections, res)
+	return ec.marshalNBoolTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_boolTyped(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -1600,7 +1600,7 @@ func (ec *executionContext) _Query_boolTypedN(ctx context.Context, field graphql
 	}
 	res := resTmp.(*model.BoolTyped)
 	fc.Result = res
-	return ec.marshalOBoolTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx, field.Selections, res)
+	return ec.marshalOBoolTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_boolTypedN(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -1707,7 +1707,7 @@ func (ec *executionContext) _Query_varTyped(ctx context.Context, field graphql.C
 	}
 	res := resTmp.(model.VarTyped)
 	fc.Result = res
-	return ec.marshalNVarTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped(ctx, field.Selections, res)
+	return ec.marshalNVarTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_varTyped(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -1817,7 +1817,7 @@ func (ec *executionContext) _Query_inPackage(ctx context.Context, field graphql.
 	}
 	res := resTmp.(InPackage)
 	fc.Result = res
-	return ec.marshalNInPackage2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage(ctx, field.Selections, res)
+	return ec.marshalNInPackage2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query_inPackage(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -1869,7 +1869,7 @@ func (ec *executionContext) _Query___type(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.(*introspection.Type)
 	fc.Result = res
-	return ec.marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
+	return ec.marshalO__Type2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query___type(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -1943,7 +1943,7 @@ func (ec *executionContext) _Query___schema(ctx context.Context, field graphql.C
 	}
 	res := resTmp.(*introspection.Schema)
 	fc.Result = res
-	return ec.marshalO__Schema2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐSchema(ctx, field.Selections, res)
+	return ec.marshalO__Schema2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐSchema(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext_Query___schema(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -2130,7 +2130,7 @@ func (ec *executionContext) ___Directive_args(ctx context.Context, field graphql
 	}
 	res := resTmp.([]introspection.InputValue)
 	fc.Result = res
-	return ec.marshalN__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx, field.Selections, res)
+	return ec.marshalN__InputValue2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Directive_args(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -2483,7 +2483,7 @@ func (ec *executionContext) ___Field_args(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.([]introspection.InputValue)
 	fc.Result = res
-	return ec.marshalN__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx, field.Selections, res)
+	return ec.marshalN__InputValue2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Field_args(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -2537,7 +2537,7 @@ func (ec *executionContext) ___Field_type(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.(*introspection.Type)
 	fc.Result = res
-	return ec.marshalN__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
+	return ec.marshalN__Type2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Field_type(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -2773,7 +2773,7 @@ func (ec *executionContext) ___InputValue_type(ctx context.Context, field graphq
 	}
 	res := resTmp.(*introspection.Type)
 	fc.Result = res
-	return ec.marshalN__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
+	return ec.marshalN__Type2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___InputValue_type(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -2921,7 +2921,7 @@ func (ec *executionContext) ___Schema_types(ctx context.Context, field graphql.C
 	}
 	res := resTmp.([]introspection.Type)
 	fc.Result = res
-	return ec.marshalN__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx, field.Selections, res)
+	return ec.marshalN__Type2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Schema_types(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -2987,7 +2987,7 @@ func (ec *executionContext) ___Schema_queryType(ctx context.Context, field graph
 	}
 	res := resTmp.(*introspection.Type)
 	fc.Result = res
-	return ec.marshalN__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
+	return ec.marshalN__Type2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Schema_queryType(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -3050,7 +3050,7 @@ func (ec *executionContext) ___Schema_mutationType(ctx context.Context, field gr
 	}
 	res := resTmp.(*introspection.Type)
 	fc.Result = res
-	return ec.marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
+	return ec.marshalO__Type2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Schema_mutationType(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -3113,7 +3113,7 @@ func (ec *executionContext) ___Schema_subscriptionType(ctx context.Context, fiel
 	}
 	res := resTmp.(*introspection.Type)
 	fc.Result = res
-	return ec.marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
+	return ec.marshalO__Type2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Schema_subscriptionType(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -3179,7 +3179,7 @@ func (ec *executionContext) ___Schema_directives(ctx context.Context, field grap
 	}
 	res := resTmp.([]introspection.Directive)
 	fc.Result = res
-	return ec.marshalN__Directive2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐDirectiveᚄ(ctx, field.Selections, res)
+	return ec.marshalN__Directive2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐDirectiveᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Schema_directives(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -3358,7 +3358,7 @@ func (ec *executionContext) ___Type_fields(ctx context.Context, field graphql.Co
 	}
 	res := resTmp.([]introspection.Field)
 	fc.Result = res
-	return ec.marshalO__Field2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐFieldᚄ(ctx, field.Selections, res)
+	return ec.marshalO__Field2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐFieldᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Type_fields(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -3424,7 +3424,7 @@ func (ec *executionContext) ___Type_interfaces(ctx context.Context, field graphq
 	}
 	res := resTmp.([]introspection.Type)
 	fc.Result = res
-	return ec.marshalO__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx, field.Selections, res)
+	return ec.marshalO__Type2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Type_interfaces(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -3487,7 +3487,7 @@ func (ec *executionContext) ___Type_possibleTypes(ctx context.Context, field gra
 	}
 	res := resTmp.([]introspection.Type)
 	fc.Result = res
-	return ec.marshalO__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx, field.Selections, res)
+	return ec.marshalO__Type2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Type_possibleTypes(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -3550,7 +3550,7 @@ func (ec *executionContext) ___Type_enumValues(ctx context.Context, field graphq
 	}
 	res := resTmp.([]introspection.EnumValue)
 	fc.Result = res
-	return ec.marshalO__EnumValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValueᚄ(ctx, field.Selections, res)
+	return ec.marshalO__EnumValue2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValueᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Type_enumValues(ctx context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -3612,7 +3612,7 @@ func (ec *executionContext) ___Type_inputFields(ctx context.Context, field graph
 	}
 	res := resTmp.([]introspection.InputValue)
 	fc.Result = res
-	return ec.marshalO__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx, field.Selections, res)
+	return ec.marshalO__InputValue2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Type_inputFields(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -3663,7 +3663,7 @@ func (ec *executionContext) ___Type_ofType(ctx context.Context, field graphql.Co
 	}
 	res := resTmp.(*introspection.Type)
 	fc.Result = res
-	return ec.marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
+	return ec.marshalO__Type2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) fieldContext___Type_ofType(_ context.Context, field graphql.CollectedField) (fc *graphql.FieldContext, err error) {
@@ -4442,14 +4442,14 @@ func (ec *executionContext) ___Type(ctx context.Context, sel ast.SelectionSet, o
 
 // region    ***************************** type.gotpl *****************************
 
-func (ec *executionContext) unmarshalNBoolTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx context.Context, v interface{}) (model.BoolTyped, error) {
+func (ec *executionContext) unmarshalNBoolTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx context.Context, v interface{}) (model.BoolTyped, error) {
 	tmp, err := graphql.UnmarshalString(v)
-	res := unmarshalNBoolTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped[tmp]
+	res := unmarshalNBoolTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped[tmp]
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNBoolTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx context.Context, sel ast.SelectionSet, v model.BoolTyped) graphql.Marshaler {
-	res := graphql.MarshalString(marshalNBoolTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped[v])
+func (ec *executionContext) marshalNBoolTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx context.Context, sel ast.SelectionSet, v model.BoolTyped) graphql.Marshaler {
+	res := graphql.MarshalString(marshalNBoolTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped[v])
 	if res == graphql.Null {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "the requested element is null which the schema does not allow")
@@ -4459,11 +4459,11 @@ func (ec *executionContext) marshalNBoolTyped2githubᚗcomᚋ99designsᚋgqlgen�
 }
 
 var (
-	unmarshalNBoolTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped = map[string]model.BoolTyped{
+	unmarshalNBoolTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped = map[string]model.BoolTyped{
 		"TRUE":  model.BoolTypedTrue,
 		"FALSE": model.BoolTypedFalse,
 	}
-	marshalNBoolTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped = map[model.BoolTyped]string{
+	marshalNBoolTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped = map[model.BoolTyped]string{
 		model.BoolTypedTrue:  "TRUE",
 		model.BoolTypedFalse: "FALSE",
 	}
@@ -4511,14 +4511,14 @@ func (ec *executionContext) marshalNBoolean2bool(ctx context.Context, sel ast.Se
 	return res
 }
 
-func (ec *executionContext) unmarshalNInPackage2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage(ctx context.Context, v interface{}) (InPackage, error) {
+func (ec *executionContext) unmarshalNInPackage2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage(ctx context.Context, v interface{}) (InPackage, error) {
 	tmp, err := graphql.UnmarshalString(v)
-	res := unmarshalNInPackage2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage[tmp]
+	res := unmarshalNInPackage2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage[tmp]
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNInPackage2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage(ctx context.Context, sel ast.SelectionSet, v InPackage) graphql.Marshaler {
-	res := graphql.MarshalString(marshalNInPackage2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage[v])
+func (ec *executionContext) marshalNInPackage2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage(ctx context.Context, sel ast.SelectionSet, v InPackage) graphql.Marshaler {
+	res := graphql.MarshalString(marshalNInPackage2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage[v])
 	if res == graphql.Null {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "the requested element is null which the schema does not allow")
@@ -4528,24 +4528,24 @@ func (ec *executionContext) marshalNInPackage2githubᚗcomᚋ99designsᚋgqlgen�
 }
 
 var (
-	unmarshalNInPackage2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage = map[string]InPackage{
+	unmarshalNInPackage2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage = map[string]InPackage{
 		"TRUE":  InPackageTrue,
 		"FALSE": InPackageFalse,
 	}
-	marshalNInPackage2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage = map[InPackage]string{
+	marshalNInPackage2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋapiᚐInPackage = map[InPackage]string{
 		InPackageTrue:  "TRUE",
 		InPackageFalse: "FALSE",
 	}
 )
 
-func (ec *executionContext) unmarshalNIntTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx context.Context, v interface{}) (model.IntTyped, error) {
+func (ec *executionContext) unmarshalNIntTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx context.Context, v interface{}) (model.IntTyped, error) {
 	tmp, err := graphql.UnmarshalString(v)
-	res := unmarshalNIntTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped[tmp]
+	res := unmarshalNIntTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped[tmp]
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNIntTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx context.Context, sel ast.SelectionSet, v model.IntTyped) graphql.Marshaler {
-	res := graphql.MarshalString(marshalNIntTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped[v])
+func (ec *executionContext) marshalNIntTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx context.Context, sel ast.SelectionSet, v model.IntTyped) graphql.Marshaler {
+	res := graphql.MarshalString(marshalNIntTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped[v])
 	if res == graphql.Null {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "the requested element is null which the schema does not allow")
@@ -4555,11 +4555,11 @@ func (ec *executionContext) marshalNIntTyped2githubᚗcomᚋ99designsᚋgqlgen�
 }
 
 var (
-	unmarshalNIntTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped = map[string]model.IntTyped{
+	unmarshalNIntTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped = map[string]model.IntTyped{
 		"ONE": model.IntTypedOne,
 		"TWO": model.IntTypedTwo,
 	}
-	marshalNIntTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped = map[model.IntTyped]string{
+	marshalNIntTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped = map[model.IntTyped]string{
 		model.IntTypedOne: "ONE",
 		model.IntTypedTwo: "TWO",
 	}
@@ -4607,14 +4607,14 @@ func (ec *executionContext) marshalNString2string(ctx context.Context, sel ast.S
 	return res
 }
 
-func (ec *executionContext) unmarshalNStringTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx context.Context, v interface{}) (model.StringTyped, error) {
+func (ec *executionContext) unmarshalNStringTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx context.Context, v interface{}) (model.StringTyped, error) {
 	tmp, err := graphql.UnmarshalString(v)
-	res := unmarshalNStringTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped[tmp]
+	res := unmarshalNStringTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped[tmp]
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNStringTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx context.Context, sel ast.SelectionSet, v model.StringTyped) graphql.Marshaler {
-	res := graphql.MarshalString(marshalNStringTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped[v])
+func (ec *executionContext) marshalNStringTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx context.Context, sel ast.SelectionSet, v model.StringTyped) graphql.Marshaler {
+	res := graphql.MarshalString(marshalNStringTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped[v])
 	if res == graphql.Null {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "the requested element is null which the schema does not allow")
@@ -4624,11 +4624,11 @@ func (ec *executionContext) marshalNStringTyped2githubᚗcomᚋ99designsᚋgqlge
 }
 
 var (
-	unmarshalNStringTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped = map[string]model.StringTyped{
+	unmarshalNStringTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped = map[string]model.StringTyped{
 		"ONE": model.StringTypedOne,
 		"TWO": model.StringTypedTwo,
 	}
-	marshalNStringTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped = map[model.StringTyped]string{
+	marshalNStringTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped = map[model.StringTyped]string{
 		model.StringTypedOne: "ONE",
 		model.StringTypedTwo: "TWO",
 	}
@@ -4661,14 +4661,14 @@ var (
 	}
 )
 
-func (ec *executionContext) unmarshalNVarTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped(ctx context.Context, v interface{}) (model.VarTyped, error) {
+func (ec *executionContext) unmarshalNVarTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped(ctx context.Context, v interface{}) (model.VarTyped, error) {
 	tmp, err := graphql.UnmarshalString(v)
-	res := unmarshalNVarTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped[tmp]
+	res := unmarshalNVarTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped[tmp]
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNVarTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped(ctx context.Context, sel ast.SelectionSet, v model.VarTyped) graphql.Marshaler {
-	res := graphql.MarshalString(marshalNVarTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped[v])
+func (ec *executionContext) marshalNVarTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped(ctx context.Context, sel ast.SelectionSet, v model.VarTyped) graphql.Marshaler {
+	res := graphql.MarshalString(marshalNVarTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped[v])
 	if res == graphql.Null {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "the requested element is null which the schema does not allow")
@@ -4678,11 +4678,11 @@ func (ec *executionContext) marshalNVarTyped2githubᚗcomᚋ99designsᚋgqlgen�
 }
 
 var (
-	unmarshalNVarTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped = map[string]model.VarTyped{
+	unmarshalNVarTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped = map[string]model.VarTyped{
 		"TRUE":  model.VarTypedTrue,
 		"FALSE": model.VarTypedFalse,
 	}
-	marshalNVarTyped2githubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped = map[model.VarTyped]string{
+	marshalNVarTyped2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐVarTyped = map[model.VarTyped]string{
 		model.VarTypedTrue:  "TRUE",
 		model.VarTypedFalse: "FALSE",
 	}
@@ -4715,11 +4715,11 @@ var (
 	}
 )
 
-func (ec *executionContext) marshalN__Directive2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐDirective(ctx context.Context, sel ast.SelectionSet, v introspection.Directive) graphql.Marshaler {
+func (ec *executionContext) marshalN__Directive2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐDirective(ctx context.Context, sel ast.SelectionSet, v introspection.Directive) graphql.Marshaler {
 	return ec.___Directive(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__Directive2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐDirectiveᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Directive) graphql.Marshaler {
+func (ec *executionContext) marshalN__Directive2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐDirectiveᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Directive) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -4743,7 +4743,7 @@ func (ec *executionContext) marshalN__Directive2ᚕgithubᚗcomᚋ99designsᚋgq
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalN__Directive2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐDirective(ctx, sel, v[i])
+			ret[i] = ec.marshalN__Directive2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐDirective(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -4839,19 +4839,19 @@ func (ec *executionContext) marshalN__DirectiveLocation2ᚕstringᚄ(ctx context
 	return ret
 }
 
-func (ec *executionContext) marshalN__EnumValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValue(ctx context.Context, sel ast.SelectionSet, v introspection.EnumValue) graphql.Marshaler {
+func (ec *executionContext) marshalN__EnumValue2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValue(ctx context.Context, sel ast.SelectionSet, v introspection.EnumValue) graphql.Marshaler {
 	return ec.___EnumValue(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__Field2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐField(ctx context.Context, sel ast.SelectionSet, v introspection.Field) graphql.Marshaler {
+func (ec *executionContext) marshalN__Field2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐField(ctx context.Context, sel ast.SelectionSet, v introspection.Field) graphql.Marshaler {
 	return ec.___Field(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__InputValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx context.Context, sel ast.SelectionSet, v introspection.InputValue) graphql.Marshaler {
+func (ec *executionContext) marshalN__InputValue2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx context.Context, sel ast.SelectionSet, v introspection.InputValue) graphql.Marshaler {
 	return ec.___InputValue(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.InputValue) graphql.Marshaler {
+func (ec *executionContext) marshalN__InputValue2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.InputValue) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -4875,7 +4875,7 @@ func (ec *executionContext) marshalN__InputValue2ᚕgithubᚗcomᚋ99designsᚋg
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalN__InputValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx, sel, v[i])
+			ret[i] = ec.marshalN__InputValue2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -4895,11 +4895,11 @@ func (ec *executionContext) marshalN__InputValue2ᚕgithubᚗcomᚋ99designsᚋg
 	return ret
 }
 
-func (ec *executionContext) marshalN__Type2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalN__Type2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v introspection.Type) graphql.Marshaler {
 	return ec.___Type(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalN__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalN__Type2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Type) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -4923,7 +4923,7 @@ func (ec *executionContext) marshalN__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgen�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalN__Type2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, sel, v[i])
+			ret[i] = ec.marshalN__Type2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -4943,7 +4943,7 @@ func (ec *executionContext) marshalN__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgen�
 	return ret
 }
 
-func (ec *executionContext) marshalN__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v *introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalN__Type2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v *introspection.Type) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "the requested element is null which the schema does not allow")
@@ -4968,29 +4968,29 @@ func (ec *executionContext) marshalN__TypeKind2string(ctx context.Context, sel a
 	return res
 }
 
-func (ec *executionContext) unmarshalOBoolTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx context.Context, v interface{}) (*model.BoolTyped, error) {
+func (ec *executionContext) unmarshalOBoolTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx context.Context, v interface{}) (*model.BoolTyped, error) {
 	if v == nil {
 		return nil, nil
 	}
 	tmp, err := graphql.UnmarshalString(v)
-	res := unmarshalOBoolTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped[tmp]
+	res := unmarshalOBoolTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped[tmp]
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOBoolTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx context.Context, sel ast.SelectionSet, v *model.BoolTyped) graphql.Marshaler {
+func (ec *executionContext) marshalOBoolTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped(ctx context.Context, sel ast.SelectionSet, v *model.BoolTyped) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
-	res := graphql.MarshalString(marshalOBoolTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped[*v])
+	res := graphql.MarshalString(marshalOBoolTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped[*v])
 	return res
 }
 
 var (
-	unmarshalOBoolTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped = map[string]model.BoolTyped{
+	unmarshalOBoolTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped = map[string]model.BoolTyped{
 		"TRUE":  model.BoolTypedTrue,
 		"FALSE": model.BoolTypedFalse,
 	}
-	marshalOBoolTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped = map[model.BoolTyped]string{
+	marshalOBoolTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐBoolTyped = map[model.BoolTyped]string{
 		model.BoolTypedTrue:  "TRUE",
 		model.BoolTypedFalse: "FALSE",
 	}
@@ -5050,29 +5050,29 @@ func (ec *executionContext) marshalOBoolean2ᚖbool(ctx context.Context, sel ast
 	return res
 }
 
-func (ec *executionContext) unmarshalOIntTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx context.Context, v interface{}) (*model.IntTyped, error) {
+func (ec *executionContext) unmarshalOIntTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx context.Context, v interface{}) (*model.IntTyped, error) {
 	if v == nil {
 		return nil, nil
 	}
 	tmp, err := graphql.UnmarshalString(v)
-	res := unmarshalOIntTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped[tmp]
+	res := unmarshalOIntTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped[tmp]
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOIntTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx context.Context, sel ast.SelectionSet, v *model.IntTyped) graphql.Marshaler {
+func (ec *executionContext) marshalOIntTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped(ctx context.Context, sel ast.SelectionSet, v *model.IntTyped) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
-	res := graphql.MarshalString(marshalOIntTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped[*v])
+	res := graphql.MarshalString(marshalOIntTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped[*v])
 	return res
 }
 
 var (
-	unmarshalOIntTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped = map[string]model.IntTyped{
+	unmarshalOIntTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped = map[string]model.IntTyped{
 		"ONE": model.IntTypedOne,
 		"TWO": model.IntTypedTwo,
 	}
-	marshalOIntTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped = map[model.IntTyped]string{
+	marshalOIntTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐIntTyped = map[model.IntTyped]string{
 		model.IntTypedOne: "ONE",
 		model.IntTypedTwo: "TWO",
 	}
@@ -5160,29 +5160,29 @@ func (ec *executionContext) marshalOString2ᚖstring(ctx context.Context, sel as
 	return res
 }
 
-func (ec *executionContext) unmarshalOStringTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx context.Context, v interface{}) (*model.StringTyped, error) {
+func (ec *executionContext) unmarshalOStringTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx context.Context, v interface{}) (*model.StringTyped, error) {
 	if v == nil {
 		return nil, nil
 	}
 	tmp, err := graphql.UnmarshalString(v)
-	res := unmarshalOStringTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped[tmp]
+	res := unmarshalOStringTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped[tmp]
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOStringTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx context.Context, sel ast.SelectionSet, v *model.StringTyped) graphql.Marshaler {
+func (ec *executionContext) marshalOStringTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped(ctx context.Context, sel ast.SelectionSet, v *model.StringTyped) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
-	res := graphql.MarshalString(marshalOStringTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped[*v])
+	res := graphql.MarshalString(marshalOStringTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped[*v])
 	return res
 }
 
 var (
-	unmarshalOStringTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped = map[string]model.StringTyped{
+	unmarshalOStringTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped = map[string]model.StringTyped{
 		"ONE": model.StringTypedOne,
 		"TWO": model.StringTypedTwo,
 	}
-	marshalOStringTyped2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped = map[model.StringTyped]string{
+	marshalOStringTyped2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋ_examplesᚋenumᚋmodelᚐStringTyped = map[model.StringTyped]string{
 		model.StringTypedOne: "ONE",
 		model.StringTypedTwo: "TWO",
 	}
@@ -5216,7 +5216,7 @@ var (
 	}
 )
 
-func (ec *executionContext) marshalO__EnumValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.EnumValue) graphql.Marshaler {
+func (ec *executionContext) marshalO__EnumValue2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.EnumValue) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -5243,7 +5243,7 @@ func (ec *executionContext) marshalO__EnumValue2ᚕgithubᚗcomᚋ99designsᚋgq
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalN__EnumValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValue(ctx, sel, v[i])
+			ret[i] = ec.marshalN__EnumValue2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐEnumValue(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -5263,7 +5263,7 @@ func (ec *executionContext) marshalO__EnumValue2ᚕgithubᚗcomᚋ99designsᚋgq
 	return ret
 }
 
-func (ec *executionContext) marshalO__Field2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐFieldᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Field) graphql.Marshaler {
+func (ec *executionContext) marshalO__Field2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐFieldᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Field) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -5290,7 +5290,7 @@ func (ec *executionContext) marshalO__Field2ᚕgithubᚗcomᚋ99designsᚋgqlgen
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalN__Field2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐField(ctx, sel, v[i])
+			ret[i] = ec.marshalN__Field2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐField(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -5310,7 +5310,7 @@ func (ec *executionContext) marshalO__Field2ᚕgithubᚗcomᚋ99designsᚋgqlgen
 	return ret
 }
 
-func (ec *executionContext) marshalO__InputValue2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.InputValue) graphql.Marshaler {
+func (ec *executionContext) marshalO__InputValue2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValueᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.InputValue) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -5337,7 +5337,7 @@ func (ec *executionContext) marshalO__InputValue2ᚕgithubᚗcomᚋ99designsᚋg
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalN__InputValue2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx, sel, v[i])
+			ret[i] = ec.marshalN__InputValue2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐInputValue(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -5357,14 +5357,14 @@ func (ec *executionContext) marshalO__InputValue2ᚕgithubᚗcomᚋ99designsᚋg
 	return ret
 }
 
-func (ec *executionContext) marshalO__Schema2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐSchema(ctx context.Context, sel ast.SelectionSet, v *introspection.Schema) graphql.Marshaler {
+func (ec *executionContext) marshalO__Schema2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐSchema(ctx context.Context, sel ast.SelectionSet, v *introspection.Schema) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec.___Schema(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalO__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalO__Type2ᚕgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐTypeᚄ(ctx context.Context, sel ast.SelectionSet, v []introspection.Type) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -5391,7 +5391,7 @@ func (ec *executionContext) marshalO__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgen�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalN__Type2githubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, sel, v[i])
+			ret[i] = ec.marshalN__Type2githubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -5411,7 +5411,7 @@ func (ec *executionContext) marshalO__Type2ᚕgithubᚗcomᚋ99designsᚋgqlgen�
 	return ret
 }
 
-func (ec *executionContext) marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v *introspection.Type) graphql.Marshaler {
+func (ec *executionContext) marshalO__Type2ᚖgithubᚗcomᚋOldBigBuddhaᚋgqlgenᚋgraphqlᚋintrospectionᚐType(ctx context.Context, sel ast.SelectionSet, v *introspection.Type) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}

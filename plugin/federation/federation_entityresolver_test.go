@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/entityresolver"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/entityresolver/generated"
+	"github.com/OldBigBuddha/gqlgen/client"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler"
+	"github.com/OldBigBuddha/gqlgen/plugin/federation/testdata/entityresolver"
+	"github.com/OldBigBuddha/gqlgen/plugin/federation/testdata/entityresolver/generated"
 )
 
 func TestEntityResolver(t *testing.T) {

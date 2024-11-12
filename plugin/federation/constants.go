@@ -1,7 +1,7 @@
 package federation
 
 import (
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/OldBigBuddha/gqlgen/codegen/config"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 
@@ -124,27 +124,27 @@ const federationVersion2Schema = `
 var builtins = config.TypeMap{
 	"_Service": {
 		Model: config.StringList{
-			"github.com/99designs/gqlgen/plugin/federation/fedruntime.Service",
+			"github.com/OldBigBuddha/gqlgen/plugin/federation/fedruntime.Service",
 		},
 	},
 	"_Entity": {
 		Model: config.StringList{
-			"github.com/99designs/gqlgen/plugin/federation/fedruntime.Entity",
+			"github.com/OldBigBuddha/gqlgen/plugin/federation/fedruntime.Entity",
 		},
 	},
 	"Entity": {
 		Model: config.StringList{
-			"github.com/99designs/gqlgen/plugin/federation/fedruntime.Entity",
+			"github.com/OldBigBuddha/gqlgen/plugin/federation/fedruntime.Entity",
 		},
 	},
 	"_Any": {
-		Model: config.StringList{"github.com/99designs/gqlgen/graphql.Map"},
+		Model: config.StringList{"github.com/OldBigBuddha/gqlgen/graphql.Map"},
 	},
 	"federation__Scope": {
-		Model: config.StringList{"github.com/99designs/gqlgen/graphql.String"},
+		Model: config.StringList{"github.com/OldBigBuddha/gqlgen/graphql.String"},
 	},
 	"federation__Policy": {
-		Model: config.StringList{"github.com/99designs/gqlgen/graphql.String"},
+		Model: config.StringList{"github.com/OldBigBuddha/gqlgen/graphql.String"},
 	},
 }
 

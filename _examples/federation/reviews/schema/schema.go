@@ -1,7 +1,7 @@
 package schema
 
 import (
-	"github.com/99designs/gqlgen/_examples/federation/reviews/graph"
+	"github.com/OldBigBuddha/gqlgen/_examples/federation/reviews/graph"
 )
 
 const DefaultPort = "4003"

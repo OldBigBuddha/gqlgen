@@ -77,9 +77,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/99designs/gqlgen/_examples/starwars"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/OldBigBuddha/gqlgen/_examples/starwars"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler"
+	"github.com/OldBigBuddha/gqlgen/graphql/playground"
 	"github.com/go-chi/chi"
 )
 
@@ -130,10 +130,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler/extension"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler/transport"
+	"github.com/OldBigBuddha/gqlgen/graphql/playground"
 	"github.com/go-chi/chi"
 	"github.com/gorilla/websocket"
 	"github.com/gqlgen/_examples/websocket-initfunc/server/graph"

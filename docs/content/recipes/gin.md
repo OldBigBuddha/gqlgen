@@ -23,8 +23,8 @@ import (
 	"github.com/[username]/gqlgen-todos/graph"	// Replace username with your github username
 	"github.com/gin-gonic/gin"
 
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler"
+	"github.com/OldBigBuddha/gqlgen/graphql/playground"
 )
 
 // Defining the Graphql handler

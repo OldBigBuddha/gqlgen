@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/codegen/testserver/singlefile/otherpkg"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"github.com/OldBigBuddha/gqlgen/client"
+	"github.com/OldBigBuddha/gqlgen/codegen/testserver/singlefile/otherpkg"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler"
 )
 
 func TestWrappedTypes(t *testing.T) {

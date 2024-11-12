@@ -6,9 +6,9 @@ import (
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
-	"github.com/99designs/gqlgen/complexity"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/errcode"
+	"github.com/OldBigBuddha/gqlgen/complexity"
+	"github.com/OldBigBuddha/gqlgen/graphql"
+	"github.com/OldBigBuddha/gqlgen/graphql/errcode"
 )
 
 const errComplexityLimit = "COMPLEXITY_LIMIT_EXCEEDED"

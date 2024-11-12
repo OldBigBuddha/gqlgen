@@ -7,9 +7,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/plugin"
+	"github.com/OldBigBuddha/gqlgen/codegen"
+	"github.com/OldBigBuddha/gqlgen/codegen/templates"
+	"github.com/OldBigBuddha/gqlgen/plugin"
 )
 
 //go:embed server.gotpl

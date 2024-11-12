@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/explicitrequires"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/explicitrequires/generated"
+	"github.com/OldBigBuddha/gqlgen/client"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler"
+	"github.com/OldBigBuddha/gqlgen/plugin/federation/testdata/explicitrequires"
+	"github.com/OldBigBuddha/gqlgen/plugin/federation/testdata/explicitrequires/generated"
 )
 
 func TestExplicitRequires(t *testing.T) {

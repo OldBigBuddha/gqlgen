@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin/federation/fieldset"
+	"github.com/OldBigBuddha/gqlgen/codegen"
+	"github.com/OldBigBuddha/gqlgen/codegen/config"
+	"github.com/OldBigBuddha/gqlgen/plugin/federation/fieldset"
 )
 
 func TestNew(t *testing.T) {

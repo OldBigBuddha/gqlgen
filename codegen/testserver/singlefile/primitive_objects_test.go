@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"github.com/OldBigBuddha/gqlgen/client"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler"
 )
 
 func TestPrimitiveObjects(t *testing.T) {

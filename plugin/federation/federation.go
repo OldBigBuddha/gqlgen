@@ -9,11 +9,11 @@ import (
 
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/internal/rewrite"
-	"github.com/99designs/gqlgen/plugin/federation/fieldset"
+	"github.com/OldBigBuddha/gqlgen/codegen"
+	"github.com/OldBigBuddha/gqlgen/codegen/config"
+	"github.com/OldBigBuddha/gqlgen/codegen/templates"
+	"github.com/OldBigBuddha/gqlgen/internal/rewrite"
+	"github.com/OldBigBuddha/gqlgen/plugin/federation/fieldset"
 )
 
 //go:embed federation.gotpl
@@ -681,7 +681,7 @@ func buildEntityResolverInputDefinitionSDL(resolver *EntityResolver) string {
 
 func (f *Federation) addMapType(cfg *config.Config) {
 	cfg.Models[mapTypeName] = config.TypeMapEntry{
-		Model: config.StringList{"github.com/99designs/gqlgen/graphql.Map"},
+		Model: config.StringList{"github.com/OldBigBuddha/gqlgen/graphql.Map"},
 	}
 	cfg.Schema.Types[mapTypeName] = &ast.Definition{
 		Kind:        ast.Scalar,

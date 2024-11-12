@@ -7,10 +7,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/debug"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/OldBigBuddha/gqlgen/graphql"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler/debug"
+	"github.com/OldBigBuddha/gqlgen/graphql/playground"
 	"golang.org/x/sync/errgroup"
 )
 

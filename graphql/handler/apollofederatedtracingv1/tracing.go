@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/OldBigBuddha/gqlgen/graphql"
 )
 
 type (

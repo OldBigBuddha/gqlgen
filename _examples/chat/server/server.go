@@ -8,11 +8,11 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/rs/cors"
 
-	"github.com/99designs/gqlgen/_examples/chat"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/OldBigBuddha/gqlgen/_examples/chat"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler/extension"
+	"github.com/OldBigBuddha/gqlgen/graphql/handler/transport"
+	"github.com/OldBigBuddha/gqlgen/graphql/playground"
 )
 
 func main() {

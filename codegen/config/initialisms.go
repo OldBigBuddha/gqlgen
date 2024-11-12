@@ -3,7 +3,7 @@ package config
 import (
 	"strings"
 
-	"github.com/99designs/gqlgen/codegen/templates"
+	"github.com/OldBigBuddha/gqlgen/codegen/templates"
 )
 
 // GoInitialismsConfig allows to modify the default behavior of naming Go methods, types and properties

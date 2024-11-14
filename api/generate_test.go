@@ -34,6 +34,14 @@ func TestGenerate(t *testing.T) {
 			name:    "federation2",
 			workDir: filepath.Join(wd, "testdata", "federation2"),
 		},
+		{
+			name:    "single-file with multiple custom templates",
+			workDir: filepath.Join(wd, "testdata", "template", "single-file", "dir"),
+		},
+		{
+			name:    "single-file with a single custom template",
+			workDir: filepath.Join(wd, "testdata", "template", "single-file", "file"),
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
